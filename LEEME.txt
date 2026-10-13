@@ -1,0 +1,40 @@
+JUKI — DE NUESTRO ANTICAFÉ
+
+ARCHIVOS
+- index.html: pantalla principal de la aplicación.
+- css.css: diseño y estilos.
+- script.js: registro de clientes, tarifas, bebidas, guardado y PDF.
+
+CÓMO ABRIR
+1. Extrae la carpeta JUKI_ANTICAFE del ZIP.
+2. Abre index.html con Chrome, Edge o Firefox.
+3. Para generar PDF se necesita conexión a internet para cargar jsPDF desde su CDN.
+
+REGISTRO DE CLIENTES
+- Registra nombre, cantidad de personas, fecha/hora de entrada y salida.
+- Guarda los registros en el navegador y permite editarlos, borrarlos y exportarlos a PDF.
+- Al registrar la salida se calcula el importe según las horas iniciadas.
+
+TARIFAS POR GRUPO
+- 1 hora: 6 Bs
+- 2 horas: 10 Bs
+- 3 horas: 14 Bs
+- 4 horas: 17 Bs
+- 5 horas: 20 Bs
+- Desde la 6.ª hora: 3 Bs adicionales por cada hora iniciada.
+El importe se calcula por grupo, no por persona. Cualquier fracción de hora cuenta como hora iniciada. Por ejemplo, 1 hora y 10 minutos se cobra como 2 horas.
+
+CALCULADORA DE TIEMPO
+- Puedes vincular el cálculo con un cliente o introducir los datos manualmente.
+- Las horas extra se sugieren según el tiempo transcurrido y puedes cambiarlas antes de calcular.
+- Puedes guardar, editar, borrar y exportar cálculos a PDF.
+
+REGISTRO DE BEBIDAS
+- Té, Matecito, Café y Chocolate: 4 Bs por unidad pagada.
+- Avatar, Mango, Personal, Limonada y Tamarindo: 3 Bs por unidad pagada.
+- Cada bebida tiene campos separados para cantidad pagada y cantidad de cortesía.
+- Las bebidas de cortesía se registran pero cuestan 0 Bs.
+- Puedes guardar, editar, borrar y exportar registros a PDF.
+
+GUARDADO Y RESPALDO
+Los datos se guardan en el almacenamiento local del navegador y dispositivo actual. No se sincronizan entre dispositivos. No borres los datos del sitio si necesitas conservar los registros. Se recomienda exportar PDFs con regularidad.
